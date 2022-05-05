@@ -134,14 +134,24 @@ body {
 .author {
   display: flex;
   margin-bottom: 1.125rem;
+  color: white;
 }
 .author p {
   color: white;
   padding-left: 1rem;
 }
 .author p span {
-  color: #48556a;
+  color: rgba(255, 255, 255, 0.5);
   display: block;
+}
+.author__image {
+  border: #A775F1 2px solid;
+}
+.author--white p {
+  color: #48556a;
+}
+.author--white p span {
+  color: rgba(72, 85, 106, 0.5);
 }
 
 .footer .attribution {

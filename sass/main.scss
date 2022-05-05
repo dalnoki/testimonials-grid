@@ -142,6 +142,7 @@ body {
 .author {
   display: flex;
   margin-bottom: 1.125rem;
+  color: $white;
 
   p {
     color: $white;
@@ -149,8 +150,22 @@ body {
   }
 
   p span {
-    color: $very-dark-greyish-blue;;
+    color: $white-opacity ;
     display: block;
+  }
+
+  &__image {
+    border: #A775F1 2px solid;
+  }
+
+  &--white {
+    p {
+      color: $very-dark-greyish-blue;
+    }
+
+    p span {
+      color: $very-dark-greyish-blue-opacity;
+    }
   }
 }
 

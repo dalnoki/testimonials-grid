@@ -35,7 +35,7 @@ body {
   margin-bottom: 1rem;
 }
 .card p {
-  color: #cfcfcf;
+  color: rgba(207, 207, 207, 0.75);
 }
 .card--black {
   background-color: #19212e;

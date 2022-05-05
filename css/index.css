@@ -16,7 +16,11 @@ img {
 body {
   background-color: #ecf2f8;
   font-family: "Barlow Semi Condensed", sans-serif;
-  padding: 4.43rem 1.5rem;
+}
+@media only screen and (min-width: 576px) {
+  body {
+    padding: 4.43rem 1.5rem;
+  }
 }
 
 .card {
@@ -128,7 +132,7 @@ body {
     grid-template-columns: repeat(4, 16rem);
     grid-column-gap: 1.875rem;
     grid-row-gap: 1.5rem;
-    margin: 10.25rem auto 0;
+    margin: 5.82rem auto 0;
     max-width: 69.375rem;
   }
 }

@@ -37,6 +37,7 @@ body {
   padding: 1.625rem 2rem 2rem;
 
   h2 {
+    color: #ECF2F8;;
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -44,12 +45,17 @@ body {
 
   p {
     color: $light-gray-opacity;
+    line-height: 1.125rem;
   }
 
   &--black {
     background-color: $black;
     grid-column: 1 / 1;
     grid-row: 5 / 7;
+
+    h2 {
+      margin-bottom: 1.5rem;
+    }
 
     @include respond(l) {
       grid-column: 2 / 4;
@@ -100,10 +106,11 @@ body {
 
   &--white {
     background-color: $white;
-    box-shadow: 9px 5px 20px 6px hsl(0deg 0% 0% / 18%);
+    box-shadow: 0px 3px 20px 0px rgb(0 0 0 / 11%);
 
     h2 {
       color: $very-dark-greyish-blue;
+      margin-bottom: 1.5rem;
     }
 
     p {
@@ -153,6 +160,7 @@ body {
 
 
 .author {
+  align-items: center;
   display: flex;
   margin-bottom: 1.125rem;
   color: $white;
@@ -163,8 +171,9 @@ body {
   }
 
   p span {
-    color: $white-opacity ;
+    color: $white-opacity;
     display: block;
+    font-size: .6875rem;
   }
 
   &__image {

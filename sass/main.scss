@@ -11,10 +11,10 @@
 
 .sr-only {
   position: absolute;
-  left: -10000px;
+  left: -10000rem;
   top: auto;
-  width: 1px;
-  height: 1px;
+  width: .1rem;
+  height: .1rem;
   overflow: hidden;
 }
 
@@ -88,25 +88,25 @@ body {
 
     &::before {
       content: "";
-      background-size: 104px 102px;
+      background-size: 6.5rem 6.375remx;
       background: url("../images/bg-pattern-quotation.svg") no-repeat;
-      height: 100px;
+      height: 6.25rem;
       position: absolute;
       top: 0;
       right: 1.5rem;
-      width: 100px;
+      width: 6.25rem;
       z-index: -1;
 
       @include respond(l) {
         top: 0;
-        right: 82px;
+        right: 5.125rem;
       }
     }
   }
 
   &--white {
     background-color: $white;
-    box-shadow: 0px 3px 20px 0px rgb(0 0 0 / 11%);
+    box-shadow: 0 .2rem .8rem 0 rgb(0 0 0 / 11%);
 
     h2 {
       color: $very-dark-greyish-blue;
@@ -144,7 +144,7 @@ body {
   grid-template-columns: 1fr;
   grid-row-gap: 1.5rem;
   margin-inline: 1.5rem;
-  max-width: 350px;
+  max-width: 20.4375rem;
   margin: 4.4375rem auto;
 
   @include respond(l) {
@@ -167,6 +167,7 @@ body {
 
   p {
     color: $white;
+    line-height: .8125rem;
     padding-left: 1rem;
   }
 
@@ -177,7 +178,7 @@ body {
   }
 
   &__image {
-    border: #A775F1 2px solid;
+    border: #A775F1 .125rem solid;
   }
 
   &--white {
